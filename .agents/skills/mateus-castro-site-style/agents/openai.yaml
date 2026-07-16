@@ -1,0 +1,5 @@
+interface:
+  display_name: "Sites Autorais com Movimento"
+  short_description: "Composições variadas e movimento cinematográfico"
+  default_prompt: "Use $mateus-castro-site-style para criar um site premium com direção de arte própria, seções distintas e movimento responsivo."
+

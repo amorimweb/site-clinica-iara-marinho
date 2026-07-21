@@ -7,8 +7,9 @@ const services = [
   ['02', 'Micropigmentação', 'Técnica, precisão e naturalidade para resultados que respeitam cada rosto.'],
   ['03', 'Brow lamination', 'Alinhamento e volume para sobrancelhas com acabamento contemporâneo.'],
   ['04', 'Cílios', 'Olhar marcante com aplicação cuidadosa e resultado sob medida.'],
-  ['05', 'Limpeza de pele', 'Protocolos de cuidado para uma pele renovada, luminosa e bem assistida.'],
-  ['06', 'Estética facial', 'Tratamentos pensados a partir das necessidades e objetivos de cada cliente.'],
+  ['05', 'Depilação', 'Técnicas de depilação com conforto, higiene e resultado duradouro.'],
+  ['06', 'Limpeza de pele', 'Protocolos de cuidado para uma pele renovada, luminosa e bem assistida.'],
+  ['07', 'Estética facial', 'Tratamentos pensados a partir das necessidades e objetivos de cada cliente.'],
 ];
 
 function Arrow({down=false}:{down?:boolean}) { return <span aria-hidden="true">{down ? '↓' : '↗'}</span> }

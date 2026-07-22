@@ -21,6 +21,8 @@ export default function Home() {
     const el = rail.current;
     if (!el) return;
     const wheel = (event: WheelEvent) => {
+      const rect = el.getBoundingClientRect();
+      if (rect.top < -24 || rect.bottom > window.innerHeight + 24) return;
       const delta = event.deltaY || event.deltaX;
       const atStart = el.scrollLeft <= 1;
       const atEnd = el.scrollLeft + el.clientWidth >= el.scrollWidth - 1;
